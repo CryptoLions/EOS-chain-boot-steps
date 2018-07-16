@@ -9,4 +9,4 @@
 ################################################################################
 
 ## EXPERIMENTALL
-#./cleos.sh  push action eosio setram '{"max_ram_size":"888888888888888"}' -p eosio
+#./cleos.sh  push action eosio setram '{"max_ram_size":"68719476736"}' -p eosio
