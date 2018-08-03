@@ -9,7 +9,7 @@
 ################################################################################
 
 SOURCES_FOLDER="$( jq -r '.SOURCES_FOLDER' "00_CONFIG.conf" )"
-CONTRACTS_FOLDER="$SOURCES_FOLDER/build/contracts"
+CONTRACTS_FOLDER="$SYSTEM_CONTRACTS_FOLDER"
 
 ./cleos.sh set contract eosio $CONTRACTS_FOLDER/eosio.system -p eosio
 
